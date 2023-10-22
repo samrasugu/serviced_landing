@@ -1,9 +1,12 @@
-import Image from 'next/image'
+import NavBar from "@component/components/navbar/navbar";
+import Image from "next/image";
+import { HeroSection } from "./sections/hero";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-white">
-      <h1 className='text-lg text-primary-orange'>Serviced</h1>
+    <main className="flex min-h-screen flex-col bg-white">
+      <NavBar />
+      <HeroSection />
     </main>
-  )
+  );
 }
