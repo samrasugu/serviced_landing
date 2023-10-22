@@ -18,6 +18,9 @@ const config: Config = {
         'primary-black': '#1E1E1E',
         'primary-grey': '#676767',
         'primary-white': '#F9F9F9'
+      },
+      fontWeight: {
+        'lightbold': '700'
       }
     },
   },
