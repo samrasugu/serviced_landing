@@ -48,7 +48,7 @@ export function StatsSection() {
           We are <span className="text-primary-orange">trusted</span> by 1000+
           companies
         </h1>
-        <div className="grid grid-cols-4 md:grid-cols-8 gap-16 py-10 px-4">
+        <div className="grid grid-cols-4 md:grid-cols-7 gap-16 py-10 px-4">
           {companies.map((company, index) => (
             <Image key={index} src={company} alt="Meta Logo" />
           ))}
