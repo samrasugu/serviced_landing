@@ -2,6 +2,8 @@
 
 A responsive task service management agency landing page built with Next.JS, TypeScript, and TailwindCSS.
 
+Design inspiration: [Behance](https://www.behance.net/gallery/182609597/Task-Manager-Landing-Page)
+
 <img src="/public/assets/Screenshot from 2023-10-24 15-42-36.png" alt="Serviced" >
 <img src="/public/assets/Screenshot from 2023-10-24 15-42-45.png" alt="Serviced" >
 <img src="/public/assets/Screenshot from 2023-10-24 15-48-33.png" alt="Serviced" >
