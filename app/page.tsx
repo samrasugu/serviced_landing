@@ -3,6 +3,7 @@ import Image from "next/image";
 import { HeroSection } from "./sections/hero";
 import { StatsSection } from "./sections/stats";
 import { WorkWithUs } from "./sections/work-with-us";
+import { CustomerReviews } from "./sections/customer-reviews";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroSection />
       <StatsSection />
       <WorkWithUs />
+      <CustomerReviews />
     </main>
   );
 }
