@@ -4,6 +4,7 @@ import { HeroSection } from "./sections/hero";
 import { StatsSection } from "./sections/stats";
 import { WorkWithUs } from "./sections/work-with-us";
 import { CustomerReviews } from "./sections/customer-reviews";
+import { PlansSection } from "./sections/plans";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <StatsSection />
       <WorkWithUs />
       <CustomerReviews />
+      <PlansSection />
     </main>
   );
 }
